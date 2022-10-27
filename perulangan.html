@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Perulanagan</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var konfirmasi = confirm('Apakah anda ingin memasukan nama lagi ?')
+		var list_nama = [];
+		for(var i = 0; i < 3; i++)
+		{
+			var nama = prompt('Masukan nama anda : ');
+			list_nama.push(nama);
+			if (i == 2)
+			{
+				confirm('Anda sudah memasukan nama sebanyak 3x')
+				break;
+			}
+			konfirmasi = confirm('Apakah anda ingin memasukan nama lagi ?')
+		}
+
+		document.write(list_nama)
+	</script>
+</body>
+</html>
